@@ -5,6 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Praxentis Labs — Software for better clinical flow</title>
 <meta name="description" content="Praxentis Labs builds software, tools, integrations, dashboards and custom clinic software. Tools that live inside the clinic. Adelaide, South Australia.">
+<link rel="canonical" href="https://praxentislabs.com.au/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Praxentis">
+<meta property="og:locale" content="en_AU">
+<meta property="og:url" content="https://praxentislabs.com.au/">
+<meta property="og:title" content="Praxentis Labs — Software for better clinical flow">
+<meta property="og:description" content="Praxentis Labs builds software, tools, integrations, dashboards and custom clinic software. Tools that live inside the clinic. Adelaide, South Australia.">
+<meta property="og:image" content="https://praxentislabs.com.au/assets/praxentis-lockup-dark-clean.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Praxentis Labs — Software for better clinical flow">
+<meta name="twitter:description" content="Praxentis Labs builds software, tools, integrations, dashboards and custom clinic software. Tools that live inside the clinic. Adelaide, South Australia.">
+<meta name="twitter:image" content="https://praxentislabs.com.au/assets/praxentis-lockup-dark-clean.png">
 <link rel="icon" href="assets/praxentis-header-icon-clean.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -196,6 +208,13 @@
   .foot-meta a{color:var(--muted)}
   .foot-meta a:hover{color:var(--accent)}
   .privacy{margin-top:36px;padding-top:22px;border-top:1px solid var(--line-soft);font-size:12.5px;color:#8A95B8;font-family:var(--mono);letter-spacing:.02em}
+
+/* Praxentis family cross-nav (footer strip) */
+.family-nav{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 20px;padding-bottom:18px;margin-bottom:26px;border-bottom:1px solid var(--line);font-size:13.5px}
+.family-nav .family-label{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.family-nav a{color:var(--muted);text-decoration:none;transition:color .15s}
+.family-nav a:hover{color:var(--accent)}
+.family-nav span[aria-current]{color:var(--fg,var(--ink));font-weight:600}
 </style>
 </head>
 <body>
@@ -214,7 +233,7 @@
         <li><a href="#philosophy">Philosophy</a></li>
       </ul>
     </nav>
-    <a class="nav-cta" href="mailto:owner@praxentis.co.site">contact</a>
+    <a class="nav-cta" href="mailto:privacy@praxentisai.com.au">contact</a>
   </div>
 </header>
 
@@ -229,7 +248,7 @@
         <p class="lede">Praxentis Labs builds software, tools, integrations, dashboards and custom clinic software — tools that live inside the clinic, exercised in real practices before they ship to yours.</p>
         <div class="cta-row">
           <a class="btn btn-primary" href="#products">See shipped products</a>
-          <a class="btn btn-ghost" href="mailto:owner@praxentis.co.site">Discuss a custom build</a>
+          <a class="btn btn-ghost" href="mailto:privacy@praxentisai.com.au">Discuss a custom build</a>
         </div>
       </div>
       <div class="term" role="img" aria-label="Terminal showing the Labs build and deploy workflow">
@@ -403,11 +422,18 @@
 
 <footer class="site">
   <div class="wrap">
+    <nav class="family-nav" aria-label="Praxentis family">
+      <span class="family-label">Praxentis family</span>
+      <span aria-current="true">Labs</span>
+      <a href="https://praxentisai.com.au">AI</a>
+      <a href="https://praxentishealth.com.au">Health</a>
+      <a href="https://clinikchat.com.au">ClinikChat</a>
+    </nav>
     <div class="foot-grid">
       <img src="assets/praxentis-lockup-dark-clean.png" alt="Praxentis" width="120">
       <div class="foot-meta">
-        Praxentis · Adelaide, South Australia · <a href="mailto:owner@praxentis.co.site">owner@praxentis.co.site</a><br>
-        <a href="https://praxentis.co.site">praxentis.co.site</a> · <a href="#top">back to top ↑</a>
+        Praxentis · Adelaide, South Australia · <a href="mailto:privacy@praxentisai.com.au">privacy@praxentisai.com.au</a><br>
+        <a href="https://praxentislabs.com.au">praxentislabs.com.au</a> · <a href="#top">back to top ↑</a>
       </div>
     </div>
     <p class="privacy">Aligned with the Privacy Act 1988 (Cth) and the Australian Privacy Principles. Patient data never leaves the country.</p>
